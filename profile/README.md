@@ -14,37 +14,44 @@
 
 ## 👋 About KoshkiKode
 
-KoshkiKode is an indie development studio focused on creating games, apps, and tools that are fun, functional, and open to the community. We build things we'd want to use ourselves — and we share the journey along the way.
+KoshkiKode is an indie development studio building games, apps, and tools that are fun, functional, and open to the community. We build things we'd want to use ourselves — and we share the journey along the way.
 
 ---
 
 ## 🚀 Projects
 
-### 🎮 [Untitled RTS Game] *(In Development)*
-> A real-time strategy game currently in early development.
+### 🎮 The Cordite Wars: Six Fronts *(In Development)*
+> A multi-front real-time strategy game currently in early development.
 
-- Tactical, real-time gameplay
-- More details coming soon...
+- Command across six simultaneous theatres of war
+- Deep tactical gameplay built for replayability
+- More details and devlogs coming soon
 
 ---
 
-### 📚 Unshelvd
+### 📚 Unshelv'd
 > **[unshelvd.koshkikode.com](https://unshelvd.koshkikode.com)**
 
-A project dedicated to getting things off the shelf and into the world.
+**Where every book finds its next reader.**
 
-- *(Add a short description of what Unshelvd does here)*
+A Depop-style peer-to-peer book marketplace for every language, every country, every era. Buy, sell, trade, and discover books from fellow readers worldwide — with escrow-protected payments, 150+ languages, and a work-edition graph that links every printing, translation, and edition together automatically.
+
+**Built with:**
+`TypeScript` · `React 18` · `Express.js` · `PostgreSQL` · `Drizzle ORM` · `Tauri` · `Capacitor` · `Google Cloud Run` · `Stripe Connect`
+
+→ [View the repo](https://github.com/dogeisbae/unshelvd)
 
 ---
 
-### 💡 Coming Soon
-More projects are in the works. Stay tuned for updates across our platforms!
+### 💡 More Coming Soon
+
+More projects are in the works. Follow along on Patreon or GitHub for updates.
 
 ---
 
 ## 🤝 Support the Studio
 
-If you enjoy what we're building, consider supporting us on Patreon. Your support helps fund development time, tooling, and keeps the projects alive.
+If you enjoy what we're building, consider supporting us on Patreon. Your support funds development time, tooling, and keeps the projects alive.
 
 <div align="center">
 
@@ -60,7 +67,7 @@ If you enjoy what we're building, consider supporting us on Patreon. Your suppor
 |----------|------|
 | 🌐 Website | [koshkikode.com](https://koshkikode.com) |
 | 🎮 Patreon | [patreon.com/koshkikode](https://patreon.com/koshkikode) |
-| 📖 Unshelvd | [unshelvd.koshkikode.com](https://unshelvd.koshkikode.com) |
+| 📖 Unshelv'd | [unshelvd.koshkikode.com](https://unshelvd.koshkikode.com) |
 | 🐙 GitHub | [github.com/dogeisbae](https://github.com/dogeisbae) |
 
 ---
