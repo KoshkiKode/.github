@@ -19,7 +19,7 @@ KoshkiKode is an indie development studio crafting games, apps, and tools that a
 Three distinct sub-brands live under the KoshkiKode roof, each with its own identity, audience, and mission:
 
 | Brand | What It Is | Status |
-|---|---|---|
+|-------|-----------|--------|
 | [**The Cordite Wars: Six Fronts**](#-the-cordite-wars-six-fronts) | Cross-platform RTS game | 🔨 In Development |
 | [**Unshelv'd**](#-unshelvd) | Peer-to-peer book marketplace | 🚀 Live |
 | [**Vetviona**](#-vetviona) | Local-first genealogy app | 🚀 Released |
@@ -43,7 +43,7 @@ Three distinct sub-brands live under the KoshkiKode roof, each with its own iden
 ### Tech Stack
 
 | Layer | Technology |
-|---|---|
+|-------|-----------|
 | Engine | Godot 4.6 with C# (.NET 9) |
 | Simulation | Fixed-point math · deterministic xoshiro256\*\* RNG · 30 ticks/sec |
 | Networking | LAN/local deterministic lockstep (no backend servers) |
@@ -78,13 +78,13 @@ Unshelv'd is a peer-to-peer book marketplace built for every language, every cou
 ### Tech Stack
 
 | Layer | Technology |
-|---|---|
+|-------|-----------|
 | Frontend | React 19 · TypeScript · Tailwind CSS · shadcn/ui |
 | Backend | Express.js · Passport.js · Stripe Connect · PayPal |
 | Database | PostgreSQL · Drizzle ORM |
 | Mobile | Capacitor (Android + iOS) |
 | Desktop | Tauri v2 (optional) |
-| Hosting | Self-hosted · Docker + Caddy + GoDaddy DNS |
+| Hosting | Self-hosted · Debian · Docker Compose · Caddy · GoDaddy DNS |
 | Catalog | Open Library API + proprietary database |
 
 ### Links
@@ -121,7 +121,7 @@ Vetviona is a private, local-first genealogy app. Build interactive family trees
 ### Pricing
 
 | Tier | Price | Platforms | Person Limit | Sync |
-|---|---|---|---|---|
+|------|-------|-----------|--------------|------|
 | **Mobile Free** | Free, always | Android · iOS | 100 per tree | RootLoop™ Manual |
 | **Mobile Paid (Apple)** | One-time | iOS | Unlimited | RootLoop™ Auto + Manual |
 | **Mobile Paid (Android)** | One-time | Android | Unlimited | RootLoop™ Auto + Manual |
@@ -132,11 +132,10 @@ No subscriptions. No recurring fees.
 ### Tech Stack
 
 | Layer | Technology |
-|---|---|
+|-------|-----------|
 | App | Flutter (Dart) · multi-platform |
 | Sync | RootLoop™ v1.0.0 — WiFi + Bluetooth, zero-knowledge encrypted |
-| Backend | License verification server (Node.js) · self-hosted |
-| Hosting | Self-hosted · Docker + Caddy + GoDaddy DNS |
+| Backend | License verification server (Node.js) · self-hosted on Debian + Docker + Caddy |
 | Packaging | WiX (Windows) · Notarized DMG (macOS) · DEB + Snap + Flatpak (Linux) |
 
 ### Links
@@ -161,12 +160,12 @@ KoshkiKode is a small independent studio. If you enjoy what we're building, supp
 ## 📬 Connect
 
 | Platform | Link |
-|---|---|
+|----------|------|
 | 🌐 Website | [koshkikode.com](https://koshkikode.com) |
 | 🎮 Patreon | [patreon.com/koshkikode](https://patreon.com/koshkikode) |
 | 📖 Unshelv'd | [unshelvd.koshkikode.com](https://unshelvd.koshkikode.com) |
 | 🌿 Vetviona | [vetviona.koshkikode.com](https://vetviona.koshkikode.com) |
-| 💙 GitHub | [github.com/KoshkiKode](https://github.com/KoshkiKode) |
+| 🐙 GitHub | [github.com/KoshkiKode](https://github.com/KoshkiKode) |
 
 ---
 
