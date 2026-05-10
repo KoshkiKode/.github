@@ -4,7 +4,7 @@
 
 **An indie studio building games, apps, and tools — one commit at a time.**
 
-[![Website](https://img.shields.io/badge/Website-koshkikode.com-blue?style=for-the-badge&logo=firefox)](https://koshkikode.com)
+[![Website](https://img.shields.io/badge/Website-koshkikode.com-1a3c34?style=for-the-badge&logo=firefox&logoColor=white)](https://koshkikode.com)
 [![Patreon](https://img.shields.io/badge/Patreon-Support_Us-FF424D?style=for-the-badge&logo=patreon)](https://patreon.com/koshkikode)
 [![GitHub](https://img.shields.io/badge/GitHub-KoshkiKode-181717?style=for-the-badge&logo=github)](https://github.com/KoshkiKode)
 
@@ -19,7 +19,7 @@ KoshkiKode is an indie development studio crafting games, apps, and tools that a
 Three distinct sub-brands live under the KoshkiKode roof, each with its own identity, audience, and mission:
 
 | Brand | What It Is | Status |
-|-------|-----------|--------|
+|---|---|---|
 | [**The Cordite Wars: Six Fronts**](#-the-cordite-wars-six-fronts) | Cross-platform RTS game | 🔨 In Development |
 | [**Unshelv'd**](#-unshelvd) | Peer-to-peer book marketplace | 🚀 Live |
 | [**Vetviona**](#-vetviona) | Local-first genealogy app | 🚀 Released |
@@ -43,7 +43,7 @@ Three distinct sub-brands live under the KoshkiKode roof, each with its own iden
 ### Tech Stack
 
 | Layer | Technology |
-|-------|-----------|
+|---|---|
 | Engine | Godot 4.6 with C# (.NET 9) |
 | Simulation | Fixed-point math · deterministic xoshiro256\*\* RNG · 30 ticks/sec |
 | Networking | LAN/local deterministic lockstep (no backend servers) |
@@ -78,18 +78,18 @@ Unshelv'd is a peer-to-peer book marketplace built for every language, every cou
 ### Tech Stack
 
 | Layer | Technology |
-|-------|-----------|
+|---|---|
 | Frontend | React 19 · TypeScript · Tailwind CSS · shadcn/ui |
 | Backend | Express.js · Passport.js · Stripe Connect · PayPal |
 | Database | PostgreSQL · Drizzle ORM |
 | Mobile | Capacitor (Android + iOS) |
 | Desktop | Tauri v2 (optional) |
-| Hosting | AWS App Runner · Amazon RDS |
+| Hosting | Self-hosted · Docker + Caddy + GoDaddy DNS |
 | Catalog | Open Library API + proprietary database |
 
 ### Links
 
-[![Website](https://img.shields.io/badge/Website-unshelvd.koshkikode.com-blue?style=flat-square&logo=firefox)](https://unshelvd.koshkikode.com)
+[![Website](https://img.shields.io/badge/Website-unshelvd.koshkikode.com-1a3c34?style=flat-square&logo=firefox&logoColor=white)](https://unshelvd.koshkikode.com)
 [![Repo](https://img.shields.io/badge/Repo-unshelvd-181717?style=flat-square&logo=github)](https://github.com/KoshkiKode/unshelvd)
 
 > Current platform fee: **10%** per transaction, with a public target to reduce to **5%** as the platform scales.
@@ -121,7 +121,7 @@ Vetviona is a private, local-first genealogy app. Build interactive family trees
 ### Pricing
 
 | Tier | Price | Platforms | Person Limit | Sync |
-|------|-------|-----------|--------------|------|
+|---|---|---|---|---|
 | **Mobile Free** | Free, always | Android · iOS | 100 per tree | RootLoop™ Manual |
 | **Mobile Paid (Apple)** | One-time | iOS | Unlimited | RootLoop™ Auto + Manual |
 | **Mobile Paid (Android)** | One-time | Android | Unlimited | RootLoop™ Auto + Manual |
@@ -132,10 +132,11 @@ No subscriptions. No recurring fees.
 ### Tech Stack
 
 | Layer | Technology |
-|-------|-----------|
+|---|---|
 | App | Flutter (Dart) · multi-platform |
 | Sync | RootLoop™ v1.0.0 — WiFi + Bluetooth, zero-knowledge encrypted |
-| Backend | License verification server (Rust) |
+| Backend | License verification server (Node.js) · self-hosted |
+| Hosting | Self-hosted · Docker + Caddy + GoDaddy DNS |
 | Packaging | WiX (Windows) · Notarized DMG (macOS) · DEB + Snap + Flatpak (Linux) |
 
 ### Links
@@ -160,12 +161,12 @@ KoshkiKode is a small independent studio. If you enjoy what we're building, supp
 ## 📬 Connect
 
 | Platform | Link |
-|----------|------|
+|---|---|
 | 🌐 Website | [koshkikode.com](https://koshkikode.com) |
 | 🎮 Patreon | [patreon.com/koshkikode](https://patreon.com/koshkikode) |
 | 📖 Unshelv'd | [unshelvd.koshkikode.com](https://unshelvd.koshkikode.com) |
 | 🌿 Vetviona | [vetviona.koshkikode.com](https://vetviona.koshkikode.com) |
-| 🐙 GitHub | [github.com/KoshkiKode](https://github.com/KoshkiKode) |
+| 💙 GitHub | [github.com/KoshkiKode](https://github.com/KoshkiKode) |
 
 ---
 
