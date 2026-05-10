@@ -1,0 +1,51 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea? Great — tell us about it. The more context you provide, the better we can evaluate it.
+
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: Which project is this for?
+      options:
+        - Unshelv'd
+        - Vetviona
+        - Cordite Wars — Six Fronts
+        - KoshkiKode Website
+        - Other / Cross-project
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / Motivation
+      description: What problem does this feature solve? Who benefits?
+      placeholder: "I'm frustrated when... / Users who do X currently have to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the feature you'd like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or workarounds you've thought about?
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Mockups, screenshots, links to similar features elsewhere — anything that helps paint the picture.
