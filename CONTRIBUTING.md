@@ -1,73 +1,37 @@
-# Contributing to KoshkiKode
+# Contributing to KoshkiKode Projects
 
-Thank you for your interest in contributing to a KoshkiKode project! This guide covers the contribution process for all repositories in the [KoshkiKode](https://github.com/KoshkiKode) organization.
+Thank you for your interest in a KoshkiKode project. This guide is an organization-wide fallback, not a promise that every repository accepts outside contributions. A project's own `README`, `CONTRIBUTING.md`, issue and pull request templates, `LICENSE`, and any EULA take precedence.
 
----
+## Project-specific terms
 
-## Projects
+| Project | Repository notes |
+|---------|------------------|
+| The Cordite Wars: Six Fronts | Proprietary; its EULA controls. Follow the repository's specialized contribution guide and templates. |
+| Untitled Trust Builder | MIT-licensed estate-planning information and document-template app; it is not legal advice. |
+| PharmaSim | MIT-licensed educational simulator, not for medical use. Use only fictional, non-identifying data. |
+| Unshelv'd | MIT-licensed; use its repository-specific contribution and security guidance. |
+| Vetviona | No root `LICENSE` file; the backend package is marked `UNLICENSED`. Consult its repository guidance and do not assume reuse rights. |
+| KoshkiKode website | Static studio website; the repository has no license. Do not assume reuse rights. |
 
-| Project | Repo | License |
-|---------|------|---------|
-| 🎮 The Cordite Wars: Six Fronts | [cordite](https://github.com/KoshkiKode/cordite) | Proprietary |
-| 📚 Unshelv'd | [unshelvd](https://github.com/KoshkiKode/unshelvd) | MIT |
-| 🌿 Vetviona | [vetviona](https://github.com/KoshkiKode/vetviona) | Proprietary |
+These notes reflect the repositories reviewed for this guide. Check the affected repository for current terms. A public repository, or a license on one project, does not establish the contribution or reuse policy for another.
 
-> **Note:** Proprietary repositories accept bug reports and feedback but do not accept unsolicited pull requests for new features. Open-source repositories welcome community contributions — see the repo-specific `CONTRIBUTING.md` for details.
+## Before contributing
 
----
+1. Read the affected project's `README.md` and any repository-level contributing guide, security policy, issue forms, and pull request template.
+2. Check the project's license and any applicable EULA. If outside contributions are not invited or the terms are unclear, contact the maintainers before submitting code.
+3. For bugs or suggestions, search the affected repository's issues and use its issue form when available. Do not include secrets, private records, or other sensitive information in a public issue. PharmaSim reports must use fictional, non-identifying data.
 
-## How to Contribute
+## Pull requests
 
-### 1. Reporting Bugs
+When the project accepts pull requests:
 
-Before opening a new issue, please:
+- Follow its repository-specific setup, branch, style, testing, and review instructions.
+- Keep the change focused and explain what it changes and why.
+- Run the relevant project checks where feasible. Include the exact commands, results, and platforms tested; explain any checks you could not run.
+- Update relevant tests and documentation.
 
-1. Search existing [issues](https://github.com/KoshkiKode) to avoid duplicates.
-2. Use the bug report template if one is provided.
-3. Include enough detail to reproduce the problem:
-   - What you expected to happen
-   - What actually happened
-   - Steps to reproduce
-   - Platform / OS / version
+The projects use different languages, tools, and workflows. There is no organization-wide build, lint, formatting, coverage, branch-naming, commit-message, release, or review-approval requirement.
 
-### 2. Suggesting Features or Improvements
+## Community and security
 
-Open a **Feature Request** issue in the relevant repository. Describe:
-- The problem you're trying to solve
-- Your proposed solution
-- Any alternatives you've considered
-
-We read every request and factor them into the roadmap — even if a decision takes time.
-
-### 3. Pull Requests (open-source repos only)
-
-1. **Fork** the repository and create a feature branch from `main`.
-2. Follow the coding style already present in the codebase.
-3. Write or update tests if applicable.
-4. Ensure the full test suite passes before opening a PR.
-5. Write a clear PR description explaining *what* changed and *why*.
-6. Reference any related issues with `Closes #<issue>` or `Related to #<issue>`.
-
-We review pull requests as time allows. We may ask for changes or, in some cases, close PRs that don't align with the project direction — this is not a judgment on your skill.
-
----
-
-## Code Style
-
-Each repository has its own linting and formatting configuration. Before committing:
-
-- Run the project's linter (e.g., `eslint`, `dart analyze`, `dotnet format`).
-- Keep commits focused and atomic — one logical change per commit.
-- Write clear, present-tense commit messages: `Add RootLoop™ manual sync` not `Added sync stuff`.
-
----
-
-## Code of Conduct
-
-All contributors are expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md). Be kind, be constructive, and assume good intent.
-
----
-
-## Questions?
-
-Open a [Discussion](https://github.com/orgs/KoshkiKode/discussions) or reach out via [koshkikode.com](https://koshkikode.com).
+All contributors are expected to follow the [Code of Conduct](CODE_OF_CONDUCT.md). Report suspected vulnerabilities privately according to the affected repository's `SECURITY.md`; see the organization [security fallback](SECURITY.md) only when the repository has no policy of its own.

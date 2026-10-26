@@ -1,68 +1,17 @@
 # Security Policy
 
-## Supported Projects
+This is the organization-wide fallback for repositories that do not have their own `SECURITY.md`. Always follow the affected repository's policy when one exists; its reporting channel, scope, supported versions, and response targets take precedence. In particular, Cordite, Unshelv'd, and Vetviona have repository-specific security instructions. This document does not replace or extend them.
 
-| Project | Repository | Supported |
-|---------|-----------|-----------|
-| 🎮 The Cordite Wars: Six Fronts | [cordite](https://github.com/KoshkiKode/cordite) | ✅ Active development |
-| 📚 Unshelv'd | [unshelvd](https://github.com/KoshkiKode/unshelvd) | ✅ Active development |
-| 🌿 Vetviona | [vetviona](https://github.com/KoshkiKode/vetviona) | ✅ Active development |
+## Reporting a vulnerability
 
-Security fixes are applied to the latest release of each project. We do not backport security patches to older versions.
+**Do not report security vulnerabilities through public issues, discussions, or pull requests.**
 
----
+For a repository without its own policy, use GitHub's **Report a vulnerability** option on its Security tab when available. If no private reporting option is available, use the contact link on the [official KoshkiKode website](https://koshkikode.com) to request a private reporting channel. Do not include vulnerability details in a public form or issue.
 
-## Reporting a Vulnerability
+Once you have a private channel, include the affected repository and component, a description of the potential impact, and steps to reproduce where safe. Do not access, modify, or disclose data that is not yours.
 
-**Please do not open a public GitHub issue for security vulnerabilities.**
+## Scope and response
 
-If you discover a security vulnerability in any KoshkiKode project, please report it responsibly:
+Report suspected security issues in KoshkiKode-maintained code that could affect confidentiality, integrity, or availability. The affected project's own policy determines its precise scope and version support.
 
-1. **Email:** Use the contact form at [koshkikode.com](https://koshkikode.com) with the subject line `[SECURITY] <repo name>`.
-2. **Include in your report:**
-   - A clear description of the vulnerability
-   - Steps to reproduce or a proof-of-concept
-   - The potential impact (data exposure, authentication bypass, etc.)
-   - Any suggestions for a fix, if you have them
-
----
-
-## Response Timeline
-
-| Stage | Target |
-|-------|--------|
-| Acknowledgement | Within 3 business days |
-| Initial assessment | Within 7 days |
-| Fix / mitigation | Dependent on severity — critical issues prioritized |
-| Public disclosure | Coordinated with reporter after fix is released |
-
-We will keep you informed at each stage. If you do not hear back within 3 business days, please follow up.
-
----
-
-## Scope
-
-Reports are accepted for:
-
-- **Authentication and authorization flaws** in Unshelv'd (backend, payments, admin)
-- **Data exposure** in any KoshkiKode app or service
-- **RootLoop™ sync encryption weaknesses** in Vetviona
-- **Supply-chain / dependency vulnerabilities** in any active project
-- **Payment flow vulnerabilities** in Unshelv'd (Stripe Connect, PayPal)
-
-Out of scope:
-
-- Issues in third-party libraries where the fix must come from the upstream maintainer
-- Social-engineering attacks
-- Rate limiting or denial-of-service on development/staging environments
-- Issues requiring physical access to a device
-
----
-
-## Disclosure Policy
-
-KoshkiKode follows coordinated disclosure. We ask that you give us reasonable time to address a vulnerability before making it public. In return, we will acknowledge your contribution in the release notes (unless you prefer to remain anonymous).
-
----
-
-© 2026 [KoshkiKode](https://koshkikode.com). All rights reserved.
+There is no organization-wide response or patch timeline. Please allow maintainers a reasonable opportunity to assess and address a report before public disclosure; follow any more specific terms in the repository's policy.
