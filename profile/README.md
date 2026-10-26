@@ -130,7 +130,7 @@ The project describes one-time purchase options. See the product site for curren
 |-------|-----------|
 | App | Flutter (Dart) · multi-platform |
 | Sync | RootLoop™ v1.0.0 — WiFi + Bluetooth, zero-knowledge encrypted |
-| Backend | Optional Node.js license/account service; local tree editing does not require it |
+| Backend | Node.js license/account service required for paid-tier verification; local tree editing does not require it |
 | Packaging | WiX (Windows) · Notarized DMG (macOS) · DEB + Snap + Flatpak (Linux) |
 
 ### Links

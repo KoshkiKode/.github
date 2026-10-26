@@ -17,6 +17,8 @@ Thank you for your interest in contributing to a KoshkiKode project! This guide 
 
 > **Important:** This is fallback guidance. A repository's own `CONTRIBUTING.md`, `SECURITY.md`, `LICENSE`, `EULA.txt`, README, and CI workflows take precedence. A proprietary or unlicensed repository may accept feedback without accepting code contributions; an open-source license does not by itself mean maintainers are accepting pull requests.
 
+For Trust Builder, changes to jurisdiction data should preserve source and confidence metadata; its outputs are informational, not legal advice. For PharmaSim, use only fictional, non-identifying data and treat outputs as educational, not medical guidance.
+
 ---
 
 ## How to Contribute
