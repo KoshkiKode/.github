@@ -1,4 +1,4 @@
-<!-- This generic template is for the .github repository. Use the affected project's own PR template and requirements when provided. -->
+<!-- Generic organization default. Follow the affected repository's own PR template and requirements when provided. -->
 
 ## Summary
 
