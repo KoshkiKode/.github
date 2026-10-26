@@ -16,13 +16,17 @@
 
 KoshkiKode is an indie development studio crafting games, apps, and tools that are fun, functional, and built to last. We make things we'd want to use ourselves and share the whole journey along the way — design docs, devlogs, and all the messy bits in between.
 
-Three distinct sub-brands live under the KoshkiKode roof, each with its own identity, audience, and mission:
+Our projects range from games and marketplaces to local-first and educational tools. The studio website is a separate repository from the products.
 
-| Brand | What It Is | Status |
-|-------|-----------|--------|
-| [**The Cordite Wars: Six Fronts**](#-the-cordite-wars-six-fronts) | Cross-platform RTS game | 🔨 In Development |
-| [**Unshelv'd**](#-unshelvd) | Peer-to-peer book marketplace | 🚀 Live |
-| [**Vetviona**](#-vetviona) | Local-first genealogy app | 🚀 Released |
+| Project | What It Is |
+|---------|------------|
+| [**The Cordite Wars: Six Fronts**](#-the-cordite-wars-six-fronts) | Cross-platform real-time strategy game |
+| [**Unshelv'd**](#-unshelvd) | Multilingual peer-to-peer book marketplace |
+| [**Vetviona**](#-vetviona) | Local-first genealogy and research app |
+| [**Untitled Trust Builder**](#-untitled-trust-builder) | Estate-planning information and document tools |
+| [**PharmaSim**](#-pharmasim) | Educational drug-interaction and pharmacokinetic simulator |
+
+The studio's static website is maintained separately in the [website repository](https://github.com/KoshkiKode/website).
 
 ---
 
@@ -72,7 +76,7 @@ Unshelv'd is a peer-to-peer book marketplace built for every language, every cou
 - 📖 **Work–Edition Graph** — every book automatically linked to all its editions, translations, and printings
 - 🔍 **Book Requests** — post what you're looking for and get matched with sellers
 - 💳 **Escrow Payments** — Stripe Connect + PayPal with buyer and seller protection
-- 🖥️ **Web + Mobile + Desktop** — React web app, Capacitor (Android/iOS), optional Tauri desktop
+- 🖥️ **Web + Mobile** — React web app and Capacitor (Android/iOS); a desktop client is not implemented
 - 🌐 **35 UI Languages** — top global languages with native labels
 
 ### Tech Stack
@@ -83,7 +87,7 @@ Unshelv'd is a peer-to-peer book marketplace built for every language, every cou
 | Backend | Express.js · Passport.js · Stripe Connect · PayPal |
 | Database | PostgreSQL · Drizzle ORM |
 | Mobile | Capacitor (Android + iOS) |
-| Desktop | Tauri v2 (optional) |
+| Desktop | Not implemented; Tauri setup is exploratory documentation |
 | Hosting | Self-hosted · Debian · Docker Compose · Caddy · GoDaddy DNS |
 | Catalog | Open Library API + proprietary database |
 
@@ -92,7 +96,7 @@ Unshelv'd is a peer-to-peer book marketplace built for every language, every cou
 [![Website](https://img.shields.io/badge/Website-unshelvd.koshkikode.com-1a3c34?style=flat-square&logo=firefox&logoColor=white)](https://unshelvd.koshkikode.com)
 [![Repo](https://img.shields.io/badge/Repo-unshelvd-181717?style=flat-square&logo=github)](https://github.com/KoshkiKode/unshelvd)
 
-> Current platform fee: **10%** per transaction, with a public target to reduce to **5%** as the platform scales.
+> Check the product site for current availability and terms.
 
 ---
 
@@ -109,7 +113,7 @@ Vetviona is a private, local-first genealogy app. Build interactive family trees
 - 🌳 **Interactive Tree Builder** — add people, link parents/children and spouses, pan & zoom
 - 📚 **Source Citations** — attach evidence to birth, marriage, and death facts
 - 📍 **Historical Place Matching** — date-aware autocomplete that understands changing borders and names over time
-- 🔄 **RootLoop™ Sync** — proprietary zero-knowledge encrypted device-to-device sync (no external server)
+- 🔄 **RootLoop™ Sync** — encrypted device-to-device sync (no external server)
   - **RootLoop™ Auto** — full WiFi sync that runs automatically on your home network
   - **RootLoop™ Manual** — on-demand Bluetooth/local sync you trigger yourself
 - 📤 **GEDCOM Import & Export** — industry-standard format; import your existing tree from any app
@@ -118,16 +122,7 @@ Vetviona is a private, local-first genealogy app. Build interactive family trees
 - 🔍 **Relationship Finder** — instantly see how any two people in your tree are related
 - 🔒 **Local PIN Protection** — optional username/password lock for on-device privacy
 
-### Pricing
-
-| Tier | Price | Platforms | Person Limit | Sync |
-|------|-------|-----------|--------------|------|
-| **Mobile Free** | Free, always | Android · iOS | 100 per tree | RootLoop™ Manual |
-| **Mobile Paid (Apple)** | One-time | iOS | Unlimited | RootLoop™ Auto + Manual |
-| **Mobile Paid (Android)** | One-time | Android | Unlimited | RootLoop™ Auto + Manual |
-| **Desktop Pro** | One-time | Windows · macOS · Linux | Unlimited | Both tiers |
-
-No subscriptions. No recurring fees.
+The project describes one-time purchase options. See the product site for current pricing and platform availability.
 
 ### Tech Stack
 
@@ -135,13 +130,37 @@ No subscriptions. No recurring fees.
 |-------|-----------|
 | App | Flutter (Dart) · multi-platform |
 | Sync | RootLoop™ v1.0.0 — WiFi + Bluetooth, zero-knowledge encrypted |
-| Backend | License verification server (Node.js) · self-hosted on Debian + Docker + Caddy |
+| Backend | Optional Node.js license/account service; local tree editing does not require it |
 | Packaging | WiX (Windows) · Notarized DMG (macOS) · DEB + Snap + Flatpak (Linux) |
 
 ### Links
 
 [![Website](https://img.shields.io/badge/Website-vetviona.koshkikode.com-1a3c34?style=flat-square&logo=firefox&logoColor=white)](https://vetviona.koshkikode.com)
 [![Repo](https://img.shields.io/badge/Repo-vetviona-181717?style=flat-square&logo=github)](https://github.com/KoshkiKode/vetviona)
+
+---
+
+## 🏡 Untitled Trust Builder
+
+> An estate-planning information and document-template app.
+
+Untitled Trust Builder guides users through questions about trusts, LLCs, and property to produce state-aware planning information, cost and risk estimates, and downloadable PDFs. It is **not legal advice**; generated materials are informational and should be reviewed with a qualified professional. The app is designed to keep user data on the device.
+
+### Links
+
+[![Repo](https://img.shields.io/badge/Repo-untitled--trust--builder-181717?style=flat-square&logo=github)](https://github.com/KoshkiKode/untitled-trust-builder)
+
+---
+
+## 💊 PharmaSim
+
+> An educational, client-side drug-interaction and pharmacokinetic simulator.
+
+PharmaSim includes a library of more than 880 substances, patient profiles, pharmacokinetic timelines and curves, and rule-based interaction and toxicity outputs. It is **not for medical use** and must not be used to guide treatment. Use only fictional, non-identifying data; the project describes local-only storage and no account or cloud sync.
+
+### Links
+
+[![Repo](https://img.shields.io/badge/Repo-pharmasim-181717?style=flat-square&logo=github)](https://github.com/KoshkiKode/pharmasim)
 
 ---
 
@@ -163,6 +182,8 @@ KoshkiKode is a small independent studio. If you enjoy what we're building, supp
 |----------|------|
 | 🌐 Website | [koshkikode.com](https://koshkikode.com) |
 | 🎮 Patreon | [patreon.com/koshkikode](https://patreon.com/koshkikode) |
+| 🏡 Trust Builder | [Repository](https://github.com/KoshkiKode/untitled-trust-builder) |
+| 💊 PharmaSim | [Repository](https://github.com/KoshkiKode/pharmasim) |
 | 📖 Unshelv'd | [unshelvd.koshkikode.com](https://unshelvd.koshkikode.com) |
 | 🌿 Vetviona | [vetviona.koshkikode.com](https://vetviona.koshkikode.com) |
 | 🐙 GitHub | [github.com/KoshkiKode](https://github.com/KoshkiKode) |

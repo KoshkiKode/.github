@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Got an idea? Great — tell us about it. The more context you provide, the better we can evaluate it.
+        Got an idea? Tell us about the problem and who it affects. Do not include secrets, private records, or other sensitive data.
 
   - type: dropdown
     id: project
@@ -13,11 +13,13 @@ body:
       label: Project
       description: Which project is this for?
       options:
+        - Cordite Wars — Six Fronts
+        - Untitled Trust Builder
+        - PharmaSim
         - Unshelv'd
         - Vetviona
-        - Cordite Wars — Six Fronts
-        - KoshkiKode Website
-        - Other / Cross-project
+        - KoshkiKode website (studio site)
+        - Other / cross-project
     validations:
       required: true
 

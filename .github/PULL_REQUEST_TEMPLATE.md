@@ -1,37 +1,27 @@
+<!-- Generic organization default. Follow the affected repository's own PR template and requirements when provided. -->
+
 ## Summary
 
-<!-- What does this PR do? One paragraph is enough. -->
+<!-- What does this change do, and why? -->
 
-## Type of Change
+## Project / repository
 
-- [ ] `feat` — new feature
-- [ ] `fix` — bug fix
-- [ ] `docs` — documentation only
-- [ ] `chore` — tooling, deps, cleanup
-- [ ] `refactor` — code change, no behaviour change
-- [ ] `test` — adding or fixing tests
-- [ ] `perf` — performance improvement
+<!-- Identify the project and affected component. -->
 
-## Related Issues
+## Related issues
 
-<!-- Link any related issues: "Closes #42" or "Related to #17" -->
+<!-- Link related issues, if any. -->
 
-## Testing
+## Validation
 
-<!-- How was this tested? What platforms/devices? -->
-
-- [ ] Tested locally
-- [ ] All existing tests pass
-- [ ] New tests added (if applicable)
+<!-- List the exact checks run and their results, including relevant platforms/devices. Explain checks not run. There is no shared command for every project. -->
 
 ## Checklist
 
-- [ ] Code formatted (`prettier` / `dart format` / `.editorconfig`)
-- [ ] No console.log / debug output left in
-- [ ] No secrets or credentials committed
-- [ ] `CHANGELOG.md` updated (for user-facing changes)
-- [ ] Documentation updated (if applicable)
+- [ ] Relevant tests and documentation are added or updated.
+- [ ] No secrets, credentials, or private user data are included.
+- [ ] Repository-specific instructions and templates have been followed.
 
-## Screenshots / Recordings
+## Screenshots / recordings
 
-<!-- For UI changes, include before/after screenshots or a screen recording. Delete this section if not applicable. -->
+<!-- Include for user-visible changes when helpful; otherwise remove this section. -->

@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report a bug. Please fill this out as completely as possible — vague reports are hard to act on.
+        Thanks for taking the time to report a bug. Please fill this out as completely as possible. Do not post secrets, private records, or other sensitive data. For PharmaSim, use only fictional, non-identifying data. For suspected security vulnerabilities, do not use this public form; follow the affected repository's private reporting instructions.
 
   - type: dropdown
     id: project
@@ -13,22 +13,22 @@ body:
       label: Project
       description: Which project is affected?
       options:
+        - Cordite Wars — Six Fronts
+        - Untitled Trust Builder
+        - PharmaSim
         - Unshelv'd
         - Vetviona
-        - Cordite Wars — Six Fronts
-        - KoshkiKode Website
-        - Other
+        - KoshkiKode website (studio site)
+        - Other / cross-project
     validations:
       required: true
 
   - type: input
     id: version
     attributes:
-      label: Version
-      description: App version, commit SHA, or "latest"
+      label: App / site version or commit
+      description: Include a release, commit, or build identifier if known; leave blank if not applicable.
       placeholder: e.g. 1.2.0 or main@abc1234
-    validations:
-      required: true
 
   - type: dropdown
     id: platform
@@ -44,6 +44,7 @@ body:
         - Android
         - iOS
         - All platforms
+        - Other / not applicable
     validations:
       required: true
 
@@ -74,11 +75,11 @@ body:
     id: logs
     attributes:
       label: Logs / Screenshots
-      description: Paste any relevant logs, error messages, or attach screenshots.
+      description: Share relevant logs or screenshots after removing secrets and personal, family, or patient data.
       render: shell
 
   - type: textarea
     id: context
     attributes:
       label: Additional Context
-      description: OS version, browser version, device model, or anything else that might help.
+      description: OS, browser, device model, app version, or anything else that might help.

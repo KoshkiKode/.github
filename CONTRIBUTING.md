@@ -8,11 +8,14 @@ Thank you for your interest in contributing to a KoshkiKode project! This guide 
 
 | Project | Repo | License |
 |---------|------|---------|
-| 🎮 The Cordite Wars: Six Fronts | [cordite](https://github.com/KoshkiKode/cordite) | Proprietary |
+| 🎮 The Cordite Wars: Six Fronts | [cordite](https://github.com/KoshkiKode/cordite) | Proprietary; `EULA.txt` controls |
 | 📚 Unshelv'd | [unshelvd](https://github.com/KoshkiKode/unshelvd) | MIT |
-| 🌿 Vetviona | [vetviona](https://github.com/KoshkiKode/vetviona) | Proprietary |
+| 🌿 Vetviona | [vetviona](https://github.com/KoshkiKode/vetviona) | Proprietary; no root `LICENSE`; backend package is `UNLICENSED` |
+| 🏡 Untitled Trust Builder | [untitled-trust-builder](https://github.com/KoshkiKode/untitled-trust-builder) | MIT |
+| 💊 PharmaSim | [pharmasim](https://github.com/KoshkiKode/pharmasim) | MIT |
+| 🌐 KoshkiKode Website | [website](https://github.com/KoshkiKode/website) | No license file; do not assume reuse rights |
 
-> **Note:** Proprietary repositories accept bug reports and feedback but do not accept unsolicited pull requests for new features. Open-source repositories welcome community contributions — see the repo-specific `CONTRIBUTING.md` for details.
+> **Important:** This is fallback guidance. A repository's own `CONTRIBUTING.md`, `SECURITY.md`, `LICENSE`, `EULA.txt`, README, and CI workflows take precedence. A proprietary or unlicensed repository may accept feedback without accepting code contributions; an open-source license does not by itself mean maintainers are accepting pull requests.
 
 ---
 
@@ -22,43 +25,38 @@ Thank you for your interest in contributing to a KoshkiKode project! This guide 
 
 Before opening a new issue, please:
 
-1. Search existing [issues](https://github.com/KoshkiKode) to avoid duplicates.
+1. Search existing issues in the affected repository to avoid duplicates.
 2. Use the bug report template if one is provided.
 3. Include enough detail to reproduce the problem:
    - What you expected to happen
    - What actually happened
    - Steps to reproduce
-   - Platform / OS / version
+   - Platform, OS, browser, app version, commit, or affected URL, as applicable
 
 ### 2. Suggesting Features or Improvements
 
-Open a **Feature Request** issue in the relevant repository. Describe:
+Open a **Feature Request** issue in the relevant repository if it accepts public feature requests. Describe:
 - The problem you're trying to solve
 - Your proposed solution
 - Any alternatives you've considered
 
-We read every request and factor them into the roadmap — even if a decision takes time.
+Maintainers decide whether a request fits a project's scope and roadmap.
 
-### 3. Pull Requests (open-source repos only)
+### 3. Pull Requests
 
-1. **Fork** the repository and create a feature branch from `main`.
-2. Follow the coding style already present in the codebase.
-3. Write or update tests if applicable.
-4. Ensure the full test suite passes before opening a PR.
-5. Write a clear PR description explaining *what* changed and *why*.
-6. Reference any related issues with `Closes #<issue>` or `Related to #<issue>`.
+Before writing code, check whether the repository accepts pull requests and read its local contribution guide. Follow its documented branch, licensing, review, testing, and release requirements.
 
-We review pull requests as time allows. We may ask for changes or, in some cases, close PRs that don't align with the project direction — this is not a judgment on your skill.
+When opening a PR, explain what changed and why, link related issues where appropriate, and list the exact validation commands you ran and their results. If a repository has no test or build command, say so rather than assuming a universal command.
 
 ---
 
 ## Code Style
 
-Each repository has its own linting and formatting configuration. Before committing:
+Each repository has its own stack and checks. Before opening a PR:
 
-- Run the project's linter (e.g., `eslint`, `dart analyze`, `dotnet format`).
-- Keep commits focused and atomic — one logical change per commit.
-- Write clear, present-tense commit messages: `Add RootLoop™ manual sync` not `Added sync stuff`.
+- Follow the repository's formatter and style configuration, if present.
+- Run the checks documented by that repository; not every project has a linter, formatter, or build step.
+- Keep changes focused and use the commit-message convention documented by the repository.
 
 ---
 
