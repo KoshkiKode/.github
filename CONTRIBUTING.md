@@ -1,17 +1,10 @@
-# Contributing to KoshkiKode Projects
+# Contributing to KoshkiKode
 
-Thank you for your interest in a KoshkiKode project. This guide is an organization-wide fallback, not a promise that every repository accepts outside contributions. A project's own `README`, `CONTRIBUTING.md`, issue and pull request templates, `LICENSE`, and any EULA take precedence.
+Thank you for your interest in contributing to a KoshkiKode project! This guide covers the contribution process for all repositories in the [KoshkiKode](https://github.com/KoshkiKode) organization.
 
-## Project-specific terms
+---
 
-| Project | Repository notes |
-|---------|------------------|
-| The Cordite Wars: Six Fronts | Proprietary; its EULA controls. Follow the repository's specialized contribution guide and templates. |
-| Untitled Trust Builder | MIT-licensed estate-planning information and document-template app; it is not legal advice. |
-| PharmaSim | MIT-licensed educational simulator, not for medical use. Use only fictional, non-identifying data. |
-| Unshelv'd | MIT-licensed; use its repository-specific contribution and security guidance. |
-| Vetviona | No root `LICENSE` file; the backend package is marked `UNLICENSED`. Consult its repository guidance and do not assume reuse rights. |
-| KoshkiKode website | Static studio website; the repository has no license. Do not assume reuse rights. |
+## Projects
 
 | Project | Repo | License |
 |---------|------|---------|
@@ -24,18 +17,15 @@ Thank you for your interest in a KoshkiKode project. This guide is an organizati
 
 > **Important:** This is fallback guidance. A repository's own `CONTRIBUTING.md`, `SECURITY.md`, `LICENSE`, `EULA.txt`, README, and CI workflows take precedence. A proprietary or unlicensed repository may accept feedback without accepting code contributions; an open-source license does not by itself mean maintainers are accepting pull requests.
 
-1. Read the affected project's `README.md` and any repository-level contributing guide, security policy, issue forms, and pull request template.
-2. Check the project's license and any applicable EULA. If outside contributions are not invited or the terms are unclear, contact the maintainers before submitting code.
-3. For bugs or suggestions, search the affected repository's issues and use its issue form when available. Do not include secrets, private records, or other sensitive information in a public issue. PharmaSim reports must use fictional, non-identifying data.
+For Trust Builder, changes to jurisdiction data should preserve source and confidence metadata; its outputs are informational, not legal advice. For PharmaSim, use only fictional, non-identifying data and treat outputs as educational, not medical guidance.
 
-## Pull requests
+---
 
-When the project accepts pull requests:
+## How to Contribute
 
-- Follow its repository-specific setup, branch, style, testing, and review instructions.
-- Keep the change focused and explain what it changes and why.
-- Run the relevant project checks where feasible. Include the exact commands, results, and platforms tested; explain any checks you could not run.
-- Update relevant tests and documentation.
+### 1. Reporting Bugs
+
+Before opening a new issue, please:
 
 1. Search existing issues in the affected repository to avoid duplicates.
 2. Use the bug report template if one is provided.
@@ -45,7 +35,7 @@ When the project accepts pull requests:
    - Steps to reproduce
    - Platform, OS, browser, app version, commit, or affected URL, as applicable
 
-## Community and security
+### 2. Suggesting Features or Improvements
 
 Open a **Feature Request** issue in the relevant repository if it accepts public feature requests. Describe:
 - The problem you're trying to solve

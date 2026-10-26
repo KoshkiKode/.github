@@ -2,7 +2,7 @@
 
 # 🐾 KoshkiKode
 
-**An indie studio building games, apps, and tools.**
+**An indie studio building games, apps, and tools — one commit at a time.**
 
 [![Website](https://img.shields.io/badge/Website-koshkikode.com-1a3c34?style=for-the-badge&logo=firefox&logoColor=white)](https://koshkikode.com)
 [![Patreon](https://img.shields.io/badge/Patreon-Support_Us-FF424D?style=for-the-badge&logo=patreon)](https://patreon.com/koshkikode)
@@ -14,7 +14,7 @@
 
 ## 👋 About KoshkiKode
 
-KoshkiKode is an independent development studio building software and games. Our repositories span open-source projects, commercial software, and the studio's own website; check each repository for its current terms and project-specific guidance.
+KoshkiKode is an indie development studio crafting games, apps, and tools that are fun, functional, and built to last. We make things we'd want to use ourselves and share the whole journey along the way — design docs, devlogs, and all the messy bits in between.
 
 Our projects range from games and marketplaces to local-first and educational tools. The studio website is a separate repository from the products.
 
@@ -28,7 +28,7 @@ Our projects range from games and marketplaces to local-first and educational to
 
 The studio's static website is maintained separately in the [website repository](https://github.com/KoshkiKode/website).
 
-## 🌐 Studio website
+---
 
 ## 🎮 The Cordite Wars: Six Fronts
 
@@ -166,13 +166,15 @@ PharmaSim includes a library of more than 880 substances, patient profiles, phar
 
 ## 🤝 Support the Studio
 
-KoshkiKode is a small independent studio. If you enjoy what we're building, supporting us on Patreon directly funds development time and tooling.
+KoshkiKode is a small independent studio. If you enjoy what we're building, supporting us on Patreon directly funds development time, tooling, and keeps the projects alive.
 
 <div align="center">
 
 [![Become a Patron](https://img.shields.io/badge/Become_a_Patron-FF424D?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/koshkikode)
 
 </div>
+
+---
 
 ## 📬 Connect
 
@@ -186,8 +188,10 @@ KoshkiKode is a small independent studio. If you enjoy what we're building, supp
 | 🌿 Vetviona | [vetviona.koshkikode.com](https://vetviona.koshkikode.com) |
 | 🐙 GitHub | [github.com/KoshkiKode](https://github.com/KoshkiKode) |
 
+---
+
 <div align="center">
 
-*Made with ☕ by KoshkiKode*
+*Made with ☕ and too many late nights by KoshkiKode*
 
 </div>

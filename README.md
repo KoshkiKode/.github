@@ -17,7 +17,7 @@ This is the [KoshkiKode](https://github.com/KoshkiKode) organization's `.github`
 
 Not every file in this repository is an organization-wide default. GitHub recognizes specific root files and `.github` templates; individual projects may provide their own versions.
 
-## Project repositories
+---
 
 ## Projects
 
